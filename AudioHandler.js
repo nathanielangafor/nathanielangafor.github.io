@@ -127,7 +127,7 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Kid Cudi - Mr. Rager.mp3", songName: "Kid Cudi - Mr. Rager"},
 			{songURL: "Songs/Vance Joy - Riptide.mp3", songName: "Vance Joy - Riptide"},
 			{songURL: "Songs/Wallows - Remember When.mp3", songName: "Wallows - Remember When"},
-			{songURL: "Songs/ssshhhiiittt! - Dances.mp3", songName: "ssshhhiiittt! - Dances (Translation)"},
+			{songURL: "Songs/ssshhhiiittt - Dances.mp3", songName: "ssshhhiiittt - Dances (Translation)"},
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
