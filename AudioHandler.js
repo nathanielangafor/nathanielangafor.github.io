@@ -128,6 +128,8 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Vance Joy - Riptide.mp3", songName: "Vance Joy - Riptide"},
 			{songURL: "Songs/Wallows - Remember When.mp3", songName: "Wallows - Remember When"},
 			{songURL: "Songs/ssshhhiiittt - Dances.mp3", songName: "ssshhhiiittt - Just Me And You (Not Literal Translation)"},
+			{songURL: "Songs/Bad Taste - Records.mp3", songName: "Bad Taste - Records (Translation)"},
+
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
