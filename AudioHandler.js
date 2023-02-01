@@ -124,6 +124,7 @@ var AudioHandler = (function() {
 		initSound();
         var songList = [
 			{songURL: "Songs/Eminem - Mockingbird.mp3", songName: "Eminem - Mockingbird"},
+			{songURL: "Kid Cudi - Mr. Rager.mp3", songName: "Kid Cudi - Mr. Rager"},
 
           ];
           
