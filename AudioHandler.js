@@ -129,6 +129,7 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Wallows - Remember When.mp3", songName: "Wallows - Remember When"},
 			{songURL: "Songs/ssshhhiiittt - Dances.mp3", songName: "ssshhhiiittt - Just You and I (Not Literal Translation)"},
 			{songURL: "Songs/Bad Taste - Records.mp3", songName: "Bad Taste - Records (Translation)"},
+			{songURL: "Songs/Cage the Elephant - Cigarette Daydreams.mp3", songName: "Cage the Elephant - Cigarette Daydreams"},
 
           ];
           
