@@ -122,7 +122,7 @@ $(document).ready(function() {
 async function copyDiscord() {
     var tip = document.querySelector('#discord')._tippy;
 
-    navigator.clipboard.writeText('iDerp#3616');
+    navigator.clipboard.writeText('koshka#7543');
     tip.setContent('Discord (copied!)');
     tip.show();
     await sleep(800);

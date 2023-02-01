@@ -123,32 +123,8 @@ var AudioHandler = (function() {
 
 		initSound();
         var songList = [
-            {songURL: "songs/h3h3remix.mp3", songName: "H3H3 Remix"},
-            {songURL: "songs/soulfood.mp3", songName: "Mat Zo - Soul Food (Club Mix)"},
-            {songURL: "songs/Resonance.mp3", songName: "HOME - Resonance"},
-            {songURL: "songs/ThisWillPass.mp3", songName: "HOME - This Will pass"},
-            {songURL: "songs/TheMomentBefore.mp3", songName: "HOME - The Moment Before"},
-            {songURL: "songs/Pyxis.mp3", songName: "HOME - Pyxis"},
-            {songURL: "songs/AboveAll.mp3", songName: "HOME - Above All"},
-            {songURL: "songs/BeforeTheNight.mp3", songName: "HOME - Before The Night"},
-            {songURL: "songs/FakingFutureFunk.mp3", songName: "HOME - Faking Future Funk"},
-            {songURL: "songs/AutisticGenius.mp3", songName: "Graham Kartna - Autistic Genius"},
-            {songURL: "songs/null2.mp3", songName: "Graham Kartna - Null 2"},
-            {songURL: "songs/snails-house-ma-chouchoute-1.mp3", songName: "Snail's House - Ma Chouchoute"},
-            {songURL: "songs/walkin.mp3", songName: "Jerry Terry - Walkin'"},
-            {songURL: "songs/ReDoin.mp3", songName: "Jerry Terry - ReDoin"},
-			{songURL: "songs/browsingE.mp3", songName: "Dr Grudge - Browsing E"},
-			{songURL: "songs/traumacenter.mp3", songName: "Trauma Center 2 Soundtrack (DSi)"},
-			{songURL: "songs/cancun.mp3", songName: "Playboi Carti - Cancun (ScrewStache + luxuriøus Remix)"},
-			{songURL: "songs/holo.mp3", songName: "Qoopr - Holo"},
-			{songURL: "songs/you_better_lose_yourself.mp3", songName: "Explorers of the Internet - 💝🥰🌟 you better lose yourself 🌟🥰💝"},
-			{songURL: "songs/sec_musix.mp3", songName: "Explorers of the Internet - sec musix"},
-			{songURL: "songs/uhh_cock.mp3", songName: "Emplexx - uhh cock"},
-			{songURL: "songs/BABY_GIRL_Extended_Airport_Mix.mp3", songName: "Disco Lines - BABY GIRL (Extended Airport Mix)"},
-			{songURL: "songs/christmas2021.mp3", songName: "Explorers of the Internet - ALL U WANT FOR CHRISTMAS 3 [2021 edition]"}, //xmas
-			{songURL: "songs/one_nipple_at_a_time.mp3", songName: "Middle Milk - ONE NIPPLE AT A TIME (ORIGINAL MIX)"},
-			{songURL: "songs/hysteria.mp3", songName: "\"i think i'll lose my mind in hysteria\""},
-			{songURL: "songs/midnight_sun.mp3", songName: "ZOID LAND - midnight sun (ramzoid x hal walker)"}
+			{songURL: "Songs/Eminem - Mockingbird.mp3", songName: "Eminem - Mockingbird"},
+
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
@@ -176,6 +152,7 @@ var AudioHandler = (function() {
 		startSound()
 	})
 	function startSound() {
+		console.log(audioBuffer)
 		if (isPlayingAudio == false && audioBuffer != null) {
 			source.buffer = audioBuffer;
 			source.loop = true;
