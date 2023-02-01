@@ -124,8 +124,10 @@ var AudioHandler = (function() {
 		initSound();
         var songList = [
 			{songURL: "Songs/Eminem - Mockingbird.mp3", songName: "Eminem - Mockingbird"},
-			{songURL: "Kid Cudi - Mr. Rager.mp3", songName: "Kid Cudi - Mr. Rager"},
-
+			{songURL: "Songs/Kid Cudi - Mr. Rager.mp3", songName: "Kid Cudi - Mr. Rager"},
+			{songURL: "Songs/Vance Joy - Riptide.mp3", songName: "Vance Joy - Riptide"},
+			{songURL: "Songs/Wallows - Remember When.mp3", songName: "Wallows - Remember When"},
+			{songURL: "Songs/ssshhhiiittt! - Танцы.mp3", songName: "ssshhhiiittt! - Танцы"},
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
