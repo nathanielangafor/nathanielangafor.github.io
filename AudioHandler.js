@@ -131,7 +131,6 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Bad Taste - Records.mp3", songName: "Bad Taste - Records (Translation)"},
 			{songURL: "Songs/Cage the Elephant - Cigarette Daydreams.mp3", songName: "Cage the Elephant - Cigarette Daydreams"},
 			{songURL: "Songs/Hollow Coves - Coastline.mp3", songName: "Hollow Coves - Coastline"},
-			{songURL: "Songs/50 Cent - Hate It Or Love It.mp3", songName: "50 Cent - Hate It Or Love It"},
 			{songURL: "Songs/Seafret - Atlantis.mp3", songName: "Seafret - Atlantis"},
           ];
           
