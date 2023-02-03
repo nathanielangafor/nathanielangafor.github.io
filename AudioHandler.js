@@ -132,6 +132,7 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Cage the Elephant - Cigarette Daydreams.mp3", songName: "Cage the Elephant - Cigarette Daydreams"},
 			{songURL: "Songs/Hollow Coves - Coastline.mp3", songName: "Hollow Coves - Coastline"},
 			{songURL: "Songs/50 Cent - Hate It Or Love It.mp3", songName: "50 Cent - Hate It Or Love It"},
+			{songURL: "Songs/Seafret - Atlantis.mp3", songName: "Seafret - Atlantis"},
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
