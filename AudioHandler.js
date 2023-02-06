@@ -132,6 +132,7 @@ var AudioHandler = (function() {
 			{songURL: "Songs/Cage the Elephant - Cigarette Daydreams.mp3", songName: "Cage the Elephant - Cigarette Daydreams"},
 			{songURL: "Songs/Hollow Coves - Coastline.mp3", songName: "Hollow Coves - Coastline"},
 			{songURL: "Songs/Seafret - Atlantis.mp3", songName: "Seafret - Atlantis"},
+			{songURL: "Songs/Two Door Cinema Club - Undercover Martyn.mp3", songName: "Two Door Cinema Club - Undercover Martyn (Slow + Reverb)"},
           ];
           
           var selectedSong = songList[Math.floor(Math.random()*songList.length)];
