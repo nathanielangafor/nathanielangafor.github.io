@@ -19,7 +19,7 @@ $(document).ready(function() {
     if (clicks == 0) {
       clicks++;
       $('.card').animate({
-        top: '-500px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -43,7 +43,7 @@ $(document).ready(function() {
     if (clicks == 1 && $('.card').hasClass('card0')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -60,7 +60,7 @@ $(document).ready(function() {
     if (clicks == 2 && $('.card').hasClass('card1')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -77,7 +77,7 @@ $(document).ready(function() {
     if (clicks == 3 && $('.card').hasClass('card2')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -94,7 +94,7 @@ $(document).ready(function() {
     if (clicks == 4 && $('.card').hasClass('card3')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -111,7 +111,7 @@ $(document).ready(function() {
     if (clicks == 5 && $('.card').hasClass('card4')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
@@ -128,7 +128,7 @@ $(document).ready(function() {
     if (clicks == 6 && $('.card').hasClass('card5')) {
       clicks++;
       $('.card').animate({
-        top: '-700px'
+        top: '-3000px'
       }, 'slow');
 
       $(".card").delay(1000).show(0, function() {
