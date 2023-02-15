@@ -153,7 +153,7 @@ body {
 }
 
 .card5:before {
-  content:"The confirmed trip dates are: August 15th - August 25th. All you need to do is tell me where you'd like to go and I will handle everythiing else. Whenever you decide on where you'd like to go, tap the card I gave you onto your phone. Click...";
+  content:"The confirmed trip dates are: August 15th - August 25th. All you need to do is tell me where you'd like to go and I will handle everything else. Whenever you decide on where you'd like to go, tap the card I gave you onto your phone. Click...";
   line-height: 1.5em;
   font-size: 10px;
   display: flex;
